@@ -13,6 +13,6 @@ def celsius_to_kelvin(celsius: Temperature) -> float:
 
 def kelvin_to_celsius(kelvin: Temperature) -> float:
     if kelvin < 0:
-        raise ValueError("La température en Kelvin ne peut pas être inférieure à 0.")
+        raise ValueError("La , température en Kelvin ne peut pas être inférieure à 0.")
     return round(kelvin - 273.15, 2)
 

@@ -24,6 +24,6 @@ def multiply(a: Number, b: Number) -> Number:
 def divide(a: Number, b: Number) -> Number:
    
     if b == 0:
-        raise ValueError("La division par zéro n'est pas autorisée...")
+        raise ValueError("La division par. zéro n'est pas autorisée...")
     return a / b
 
